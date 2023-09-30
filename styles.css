@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,500&family=Black+Ops+One&family=Khand:wght@500&family=Poppins&family=Tilt+Prism&family=Ysabeau+Office:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html {
+    font-family: "Poppins";
+    background-image: url(../fotos/body_bg.png);
+}
+
+header {
+    background-color: #232323;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1pc;
+    height: 5pc;
+    font-weight: bold;
+    align-items: center;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header ul {
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    color: white;
+}
+
+.card {
+    background-color: black;
+    color: white;
+    width: 315px;
+}
+
+.number {
+    position: relative;
+    background-color: white;
+    color: grey;
+    opacity: 0.09;
+    height: 14pc;
+    width: 100%;
+    text-align: center;
+    font-size: 6pc;
+    font-family: fantasy;
+}
+
+.image {
+    position: absolute;
+    top: 35px;
+    left: 5px;
+}
+
+.card:hover {
+    background-color: grey;
+}
+
+.card:hover .number {
+    opacity: 1;
+    font-size: 8pc;
+    transition: ease 1s;
+}
+
+.card:hover .image {
+    width: 15pc;
+    top: 5px;
+    left: 5px;
+    transition: ease 1s;
+}
+
+.containerInfo {
+    padding: 8px;
+    font-size: 1pc;
+}
+
+.containerInfo h5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.centrar {
+    display: flex;
+    align-items: center;
+    gap: 1pc;
+}
+
+.border {
+    padding: 3px;
+    margin: 0;
+    border-radius: 6px;
+}
+
+.container {
+    margin: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.carrusel {
+    padding: 16px;
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;
+}
+
+.carrusel .image {
+    position: absolute;
+    top: 90px;
+    left: 16%;
+}
+
+.carrusel .card:hover .image {
+    left: 70px;
+}
+
+.carrusel .card {
+    width: 350px;
+}
+
+.carrusel .number {
+    height: 18pc;
+    width: 345px;
+}
+
+section::-webkit-scrollbar {
+    height: 10px;
+}
+
+section::-webkit-scrollbar-thumb {
+    background:linear-gradient(320deg, #ffffff 50%,   rgb(255, 5, 5)50%);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
